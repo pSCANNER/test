@@ -1,0 +1,282 @@
+                                                           Result Summary                      10:24 Wednesday, January 24, 2018   1
+
+                                                                      BAD_
+                                  Obs        TABLE        px_type    RECORDS       RECORDS    PCT
+
+                                   1     PROCEDURES         CH          0       10,131,281     .  
+                                   2     DIAGNOSIS          09          1        5,906,447    0.00
+                                   3     DIAGNOSIS          10          0        3,283,467     .  
+                                   4     DISPENSING         ND          0                0     .  
+                                   5     PRESCRIBING        RX          0        6,234,934     .  
+                                   6     LAB_RESULT_CM      LA          0        2,880,940     .  
+                                                   Highest Volume Codes (Top 50)               10:24 Wednesday, January 24, 2018   2
+                                                              ICD09 Dx
+
+                                                           UNEXP_    UNEXP_     UNEXP_    UNEXP_
+                                   Obs    dx    RECORDS     ALPHA    LENGTH    NUMERIC    STRING
+
+                                    1     92       1          0         1         0          0  
+                                                   Data Curation query run times               10:24 Wednesday, January 24, 2018   3
+
+                                                                                             Query run     Cumulative
+                                                                                                time        run time
+               Obs    QUERY                       Query start time       Query end time      (hh:mm:ss)    (hh:mm:ss)
+
+                 1    DC PROGRAM                 24JAN2018:10:29:00    24JAN2018:11:05:50     0:36:49       0:36:49  
+                 2    DEATH_L3_N                 24JAN2018:10:29:04    24JAN2018:10:29:04     0:00:00       0:00:04  
+                 3    DEATH_L3_DATE_Y            24JAN2018:10:29:04    24JAN2018:10:29:04     0:00:00       0:00:04  
+                 4    DEATH_L3_DATE_YM           24JAN2018:10:29:04    24JAN2018:10:29:05     0:00:00       0:00:05  
+                 5    DEATH_L3_IMPUTE            24JAN2018:10:29:05    24JAN2018:10:29:05     0:00:00       0:00:05  
+                 6    DEATH_L3_SOURCE            24JAN2018:10:29:05    24JAN2018:10:29:05     0:00:00       0:00:05  
+                 7    DEATH_L3_MATCH             24JAN2018:10:29:06    24JAN2018:10:29:06     0:00:00       0:00:05  
+                 8    DEATHC_L3_N                24JAN2018:10:29:06    24JAN2018:10:29:06     0:00:00       0:00:06  
+                 9    DEATHC_L3_CODE             24JAN2018:10:29:06    24JAN2018:10:29:07     0:00:00       0:00:06  
+                10    DEATHC_L3_TYPE             24JAN2018:10:29:07    24JAN2018:10:29:07     0:00:00       0:00:07  
+                11    DEATHC_L3_SOURCE           24JAN2018:10:29:07    24JAN2018:10:29:07     0:00:00       0:00:07  
+                12    DEATHC_L3_CONF             24JAN2018:10:29:07    24JAN2018:10:29:07     0:00:00       0:00:07  
+                13    DEM_L3_N                   24JAN2018:10:29:20    24JAN2018:10:29:21     0:00:00       0:00:21  
+                14    DEM_L3_AGEYRSDIST1         24JAN2018:10:29:21    24JAN2018:10:29:22     0:00:01       0:00:22  
+                15    DEM_L3_AGEYRSDIST2         24JAN2018:10:29:22    24JAN2018:10:29:23     0:00:01       0:00:23  
+                16    DEM_L3_HISPDIST            24JAN2018:10:29:23    24JAN2018:10:29:24     0:00:01       0:00:24  
+                17    DEM_L3_RACEDIST            24JAN2018:10:29:24    24JAN2018:10:29:25     0:00:01       0:00:24  
+                18    DEM_L3_SEXDIST             24JAN2018:10:29:25    24JAN2018:10:29:25     0:00:01       0:00:25  
+                19    DEM_L3_GENDERDIST          24JAN2018:10:29:25    24JAN2018:10:29:26     0:00:01       0:00:26  
+                20    DEM_L3_ORIENTDIST          24JAN2018:10:29:26    24JAN2018:10:29:27     0:00:01       0:00:27  
+                21    ENC_L3_N                   24JAN2018:10:31:16    24JAN2018:10:31:45     0:00:29       0:02:45  
+                22    ENC_L3_ADMSRC              24JAN2018:10:31:45    24JAN2018:10:31:49     0:00:04       0:02:49  
+                23    ENC_L3_ENCTYPE_ADMSRC      24JAN2018:10:31:49    24JAN2018:10:31:54     0:00:04       0:02:54  
+                24    ENC_L3_ADATE_Y             24JAN2018:10:31:54    24JAN2018:10:32:04     0:00:10       0:03:04  
+                25    ENC_L3_ADATE_YM            24JAN2018:10:32:04    24JAN2018:10:32:10     0:00:06       0:03:10  
+                26    ENC_L3_ENCTYPE_ADATE_Y     24JAN2018:10:32:10    24JAN2018:10:32:22     0:00:11       0:03:22  
+                27    ENC_L3_ENCTYPE_ADATE_YM    24JAN2018:10:32:22    24JAN2018:10:32:35     0:00:13       0:03:35  
+                28    ENC_L3_DDATE_Y             24JAN2018:10:32:35    24JAN2018:10:32:45     0:00:10       0:03:45  
+                29    ENC_L3_DDATE_YM            24JAN2018:10:32:46    24JAN2018:10:32:51     0:00:06       0:03:51  
+                30    ENC_L3_ENCTYPE_DDATE_YM    24JAN2018:10:32:52    24JAN2018:10:33:05     0:00:13       0:04:05  
+                31    ENC_L3_DISDISP             24JAN2018:10:33:05    24JAN2018:10:33:09     0:00:04       0:04:09  
+                32    ENC_L3_ENCTYPE_DISDISP     24JAN2018:10:33:09    24JAN2018:10:33:14     0:00:04       0:04:13  
+                33    ENC_L3_DISSTAT             24JAN2018:10:33:14    24JAN2018:10:33:18     0:00:04       0:04:18  
+                34    ENC_L3_ENCTYPE_DISSTAT     24JAN2018:10:33:18    24JAN2018:10:33:22     0:00:04       0:04:22  
+                35    ENC_L3_DRG                 24JAN2018:10:33:23    24JAN2018:10:33:33     0:00:10       0:04:33  
+                36    ENC_L3_DRG_TYPE            24JAN2018:10:33:33    24JAN2018:10:33:37     0:00:04       0:04:37  
+                37    ENC_L3_ENCTYPE_DRG         24JAN2018:10:33:37    24JAN2018:10:33:41     0:00:04       0:04:41  
+                38    ENC_L3_ENCTYPE             24JAN2018:10:33:41    24JAN2018:10:34:19     0:00:38       0:05:19  
+                39    ENC_L3_DASH1               24JAN2018:10:34:20    24JAN2018:10:34:55     0:00:36       0:05:55  
+                40    ENC_L3_DASH2               24JAN2018:10:34:56    24JAN2018:10:35:25     0:00:29       0:06:25  
+                41    DIA_L3_N                   24JAN2018:10:35:58    24JAN2018:10:36:26     0:00:29       0:07:26  
+                42    DIA_L3_DX                  24JAN2018:10:36:27    24JAN2018:10:36:35     0:00:09       0:07:35  
+                43    DIA_L3_DX_DXTYPE           24JAN2018:10:36:36    24JAN2018:10:36:56     0:00:20       0:07:56  
+                44    DIA_L3_DXSOURCE            24JAN2018:10:36:56    24JAN2018:10:37:00     0:00:04       0:08:00  
+                45    DIA_L3_DXTYPE_DXSOURCE     24JAN2018:10:37:01    24JAN2018:10:37:06     0:00:05       0:08:05  
+                46    DIA_L3_PDX                 24JAN2018:10:37:06    24JAN2018:10:37:10     0:00:04       0:08:10  
+                47    DIA_L3_PDX_ENCTYPE         24JAN2018:10:37:10    24JAN2018:10:37:35     0:00:25       0:08:35  
+                48    DIA_L3_PDXGRP_ENCTYPE      24JAN2018:10:37:36    24JAN2018:10:37:58     0:00:23       0:08:58  
+                49    DIA_L3_ADATE_Y             24JAN2018:10:37:59    24JAN2018:10:38:22     0:00:23       0:09:22  
+                50    DIA_L3_ADATE_YM            24JAN2018:10:38:22    24JAN2018:10:38:30     0:00:08       0:09:30  
+                51    DIA_L3_ORIGIN              24JAN2018:10:38:31    24JAN2018:10:38:43     0:00:12       0:09:42  
+                52    DIA_L3_ENCTYPE             24JAN2018:10:38:43    24JAN2018:10:38:55     0:00:12       0:09:55  
+                53    DIA_L3_DXTYPE_ENCTYPE      24JAN2018:10:38:55    24JAN2018:10:39:01     0:00:05       0:10:00  
+                54    DIA_L3_DXTYPE_ADATE_Y      24JAN2018:10:39:01    24JAN2018:10:39:16     0:00:15       0:10:16  
+                                                   Data Curation query run times               10:24 Wednesday, January 24, 2018   4
+
+                                                                                             Query run     Cumulative
+                                                                                                time        run time
+               Obs    QUERY                       Query start time       Query end time      (hh:mm:ss)    (hh:mm:ss)
+
+                55    DIA_L3_ENCTYPE_ADATE_YM    24JAN2018:10:39:16    24JAN2018:10:39:58     0:00:42       0:10:58  
+                56    DIA_L3_DASH1               24JAN2018:10:39:58    24JAN2018:10:40:50     0:00:51       0:11:49  
+                57    PRO_L3_N                   24JAN2018:10:41:52    24JAN2018:10:43:09     0:01:16       0:14:08  
+                58    PRO_L3_PX                  24JAN2018:10:43:09    24JAN2018:10:43:18     0:00:09       0:14:18  
+                59    PRO_L3_ADATE_Y             24JAN2018:10:43:18    24JAN2018:10:44:08     0:00:49       0:15:08  
+                60    PRO_L3_ADATE_YM            24JAN2018:10:44:08    24JAN2018:10:44:20     0:00:12       0:15:20  
+                61    PRO_L3_PXDATE_Y            24JAN2018:10:44:20    24JAN2018:10:45:10     0:00:50       0:16:10  
+                62    PRO_L3_ENCTYPE             24JAN2018:10:45:10    24JAN2018:10:45:17     0:00:07       0:16:17  
+                63    PRO_L3_PXTYPE_ENCTYPE      24JAN2018:10:45:17    24JAN2018:10:45:25     0:00:08       0:16:25  
+                64    PRO_L3_PXTYPE_ADATE_Y      24JAN2018:10:45:25    24JAN2018:10:45:55     0:00:30       0:16:55  
+                65    PRO_L3_ENCTYPE_ADATE_YM    24JAN2018:10:45:56    24JAN2018:10:47:10     0:01:14       0:18:10  
+                66    PRO_L3_PX_PXTYPE           24JAN2018:10:47:10    24JAN2018:10:47:48     0:00:38       0:18:48  
+                67    PRO_L3_PXSOURCE            24JAN2018:10:47:48    24JAN2018:10:47:55     0:00:06       0:18:55  
+                68    ENR_L3_N                   24JAN2018:10:47:57    24JAN2018:10:47:59     0:00:02       0:18:58  
+                69    ENR_L3_DIST_START          24JAN2018:10:47:59    24JAN2018:10:47:59     0:00:00       0:18:59  
+                70    ENR_L3_DIST_END            24JAN2018:10:47:59    24JAN2018:10:48:00     0:00:00       0:19:00  
+                71    ENR_L3_DIST_ENRMONTH       24JAN2018:10:48:00    24JAN2018:10:48:00     0:00:01       0:19:00  
+                72    ENR_L3_DIST_ENRYEAR        24JAN2018:10:48:01    24JAN2018:10:48:01     0:00:01       0:19:01  
+                73    ENR_L3_ENR_YM              24JAN2018:10:48:01    24JAN2018:10:48:02     0:00:01       0:19:02  
+                74    ENR_L3_BASEDIST            24JAN2018:10:48:02    24JAN2018:10:48:03     0:00:00       0:19:03  
+                75    ENR_L3_CHART               24JAN2018:10:48:03    24JAN2018:10:48:04     0:00:01       0:19:03  
+                76    ENR_L3_PER_PATID           24JAN2018:10:48:05    24JAN2018:10:48:06     0:00:01       0:19:06  
+                77    VIT_L3_N                   24JAN2018:10:49:30    24JAN2018:10:49:47     0:00:18       0:20:47  
+                78    VIT_L3_MDATE_Y             24JAN2018:10:49:47    24JAN2018:10:49:54     0:00:07       0:20:54  
+                79    VIT_L3_MDATE_YM            24JAN2018:10:49:55    24JAN2018:10:50:07     0:00:12       0:21:06  
+                80    VIT_L3_VITAL_SOURCE        24JAN2018:10:50:07    24JAN2018:10:50:10     0:00:03       0:21:09  
+                81    VIT_L3_HT                  24JAN2018:10:50:10    24JAN2018:10:50:16     0:00:07       0:21:16  
+                82    VIT_L3_HT_DIST             24JAN2018:10:50:16    24JAN2018:10:50:18     0:00:02       0:21:18  
+                83    VIT_L3_WT                  24JAN2018:10:50:18    24JAN2018:10:50:26     0:00:08       0:21:26  
+                84    VIT_L3_WT_DIST             24JAN2018:10:50:26    24JAN2018:10:50:28     0:00:02       0:21:28  
+                85    VIT_L3_DIASTOLIC           24JAN2018:10:50:28    24JAN2018:10:50:31     0:00:03       0:21:31  
+                86    VIT_L3_SYSTOLIC            24JAN2018:10:50:31    24JAN2018:10:50:36     0:00:05       0:21:36  
+                87    VIT_L3_BMI                 24JAN2018:10:50:37    24JAN2018:10:50:39     0:00:03       0:21:39  
+                88    VIT_L3_BP_POSITION_TYPE    24JAN2018:10:50:39    24JAN2018:10:50:42     0:00:03       0:21:42  
+                89    VIT_L3_SMOKING             24JAN2018:10:50:42    24JAN2018:10:50:45     0:00:03       0:21:45  
+                90    VIT_L3_TOBACCO             24JAN2018:10:50:46    24JAN2018:10:50:49     0:00:03       0:21:48  
+                91    VIT_L3_TOBACCO_TYPE        24JAN2018:10:50:49    24JAN2018:10:50:52     0:00:03       0:21:52  
+                92    VIT_L3_DASH1               24JAN2018:10:50:52    24JAN2018:10:51:17     0:00:25       0:22:17  
+                93    DISP_L3_N                  24JAN2018:10:51:17    24JAN2018:10:51:18     0:00:01       0:22:18  
+                94    DISP_L3_NDC                24JAN2018:10:51:18    24JAN2018:10:51:19     0:00:00       0:22:18  
+                95    DISP_L3_DDATE_Y            24JAN2018:10:51:19    24JAN2018:10:51:19     0:00:00       0:22:19  
+                96    DISP_L3_DDATE_YM           24JAN2018:10:51:19    24JAN2018:10:51:20     0:00:00       0:22:19  
+                97    DISP_L3_SUPDIST2           24JAN2018:10:51:20    24JAN2018:10:51:20     0:00:00       0:22:20  
+                98    DISP_L3_DISPAMT_DIST       24JAN2018:10:51:20    24JAN2018:10:51:20     0:00:00       0:22:20  
+                99    PRES_L3_N                  24JAN2018:10:52:07    24JAN2018:10:52:32     0:00:25       0:23:31  
+               100    PRES_L3_RXCUI              24JAN2018:10:52:32    24JAN2018:10:52:51     0:00:19       0:23:51  
+               101    PRES_L3_RXCUI_TIER         24JAN2018:10:52:51    24JAN2018:10:52:54     0:00:03       0:23:54  
+               102    PRES_L3_QTYUNIT            24JAN2018:10:52:54    24JAN2018:10:52:59     0:00:04       0:23:59  
+               103    PRES_L3_BASIS              24JAN2018:10:52:59    24JAN2018:10:53:04     0:00:04       0:24:03  
+               104    PRES_L3_FREQ               24JAN2018:10:53:04    24JAN2018:10:53:08     0:00:05       0:24:08  
+               105    PRES_L3_ODATE_Y            24JAN2018:10:53:09    24JAN2018:10:53:23     0:00:15       0:24:23  
+               106    PRES_L3_ODATE_YM           24JAN2018:10:53:24    24JAN2018:10:53:38     0:00:15       0:24:38  
+               107    PRES_L3_RXCUI_RXSUP        24JAN2018:10:53:39    24JAN2018:10:53:49     0:00:11       0:24:49  
+               108    PRES_L3_SUPDIST2           24JAN2018:10:53:50    24JAN2018:10:53:53     0:00:04       0:24:53  
+                                                   Data Curation query run times               10:24 Wednesday, January 24, 2018   5
+
+                                                                                             Query run     Cumulative
+                                                                                                time        run time
+               Obs    QUERY                       Query start time       Query end time      (hh:mm:ss)    (hh:mm:ss)
+
+               109    PRES_L3_RXQTY_DIST         24JAN2018:10:53:53    24JAN2018:10:53:56     0:00:03       0:24:56  
+               110    PRES_L3_RXREFILL_DIST      24JAN2018:10:53:56    24JAN2018:10:53:59     0:00:03       0:24:59  
+               111    LAB_L3_N                   24JAN2018:10:55:04    24JAN2018:10:55:22     0:00:18       0:26:22  
+               112    LAB_L3_RECORDC             24JAN2018:10:55:23    24JAN2018:10:55:38     0:00:15       0:26:37  
+               113    LAB_L3_RAW_NAME            24JAN2018:10:55:38    24JAN2018:10:55:46     0:00:08       0:26:46  
+               114    LAB_L3_LOINC               24JAN2018:10:55:47    24JAN2018:10:55:54     0:00:08       0:26:54  
+               115    LAB_L3_LOINC_SOURCE        24JAN2018:10:55:54    24JAN2018:10:55:58     0:00:03       0:26:57  
+               116    LAB_L3_DCGROUP             24JAN2018:10:55:58    24JAN2018:10:56:17     0:00:19       0:27:17  
+               117    LAB_L3_RDATE_Y             24JAN2018:10:56:17    24JAN2018:10:56:23     0:00:06       0:27:23  
+               118    LAB_L3_RDATE_YM            24JAN2018:10:56:24    24JAN2018:10:56:30     0:00:07       0:27:30  
+               119    LAB_L3_SOURCE              24JAN2018:10:56:31    24JAN2018:10:56:34     0:00:03       0:27:34  
+               120    LAB_L3_PRIORITY            24JAN2018:10:56:34    24JAN2018:10:56:38     0:00:03       0:27:38  
+               121    LAB_L3_LOC                 24JAN2018:10:56:38    24JAN2018:10:56:41     0:00:03       0:27:41  
+               122    LAB_L3_PX_TYPE             24JAN2018:10:56:42    24JAN2018:10:56:45     0:00:03       0:27:45  
+               123    LAB_L3_PX_PXTYPE           24JAN2018:10:56:45    24JAN2018:10:56:55     0:00:10       0:27:54  
+               124    LAB_L3_QUAL                24JAN2018:10:56:55    24JAN2018:10:56:58     0:00:04       0:27:58  
+               125    LAB_L3_MOD                 24JAN2018:10:56:59    24JAN2018:10:57:02     0:00:03       0:28:02  
+               126    LAB_L3_LOW                 24JAN2018:10:57:02    24JAN2018:10:57:07     0:00:05       0:28:07  
+               127    LAB_L3_HIGH                24JAN2018:10:57:08    24JAN2018:10:57:11     0:00:03       0:28:11  
+               128    LAB_L3_LOINC_RESULT_NUM    24JAN2018:10:57:11    24JAN2018:10:57:14     0:00:02       0:28:13  
+               129    LAB_L3_ABN                 24JAN2018:10:57:14    24JAN2018:10:57:17     0:00:04       0:28:17  
+               130    COND_L3_N                  24JAN2018:10:57:18    24JAN2018:10:57:18     0:00:01       0:28:18  
+               131    COND_L3_CONDITION          24JAN2018:10:57:19    24JAN2018:10:57:19     0:00:00       0:28:19  
+               132    COND_L3_RDATE_Y            24JAN2018:10:57:19    24JAN2018:10:57:19     0:00:00       0:28:19  
+               133    COND_L3_RDATE_YM           24JAN2018:10:57:20    24JAN2018:10:57:20     0:00:00       0:28:20  
+               134    COND_L3_STATUS             24JAN2018:10:57:20    24JAN2018:10:57:20     0:00:00       0:28:20  
+               135    COND_L3_TYPE               24JAN2018:10:57:20    24JAN2018:10:57:21     0:00:00       0:28:20  
+               136    COND_L3_SOURCE             24JAN2018:10:57:21    24JAN2018:10:57:21     0:00:00       0:28:21  
+               137    PROCM_L3_N                 24JAN2018:10:57:21    24JAN2018:10:57:22     0:00:00       0:28:22  
+               138    PROCM_L3_ITEM              24JAN2018:10:57:22    24JAN2018:10:57:22     0:00:00       0:28:22  
+               139    PROCM_L3_PDATE_Y           24JAN2018:10:57:22    24JAN2018:10:57:23     0:00:00       0:28:23  
+               140    PROCM_L3_PDATE_YM          24JAN2018:10:57:23    24JAN2018:10:57:23     0:00:00       0:28:23  
+               141    PROCM_L3_METHOD            24JAN2018:10:57:23    24JAN2018:10:57:24     0:00:00       0:28:23  
+               142    PROCM_L3_MODE              24JAN2018:10:57:24    24JAN2018:10:57:24     0:00:00       0:28:24  
+               143    PROCM_L3_CAT               24JAN2018:10:57:24    24JAN2018:10:57:24     0:00:00       0:28:24  
+               144    PROCM_L3_LOINC             24JAN2018:10:57:24    24JAN2018:10:57:25     0:00:00       0:28:24  
+               145    TRIAL_L3_N                 24JAN2018:10:57:25    24JAN2018:10:57:26     0:00:01       0:28:26  
+               146    XTBL_L3_RACE_ENC           24JAN2018:10:57:26    24JAN2018:10:57:33     0:00:07       0:28:32  
+               147    XTBL_L3_NON_UNIQUE         24JAN2018:10:57:33    24JAN2018:10:58:44     0:01:11       0:29:44  
+               148    XTBL_L3_LAB_ENCTYPE        24JAN2018:10:58:44    24JAN2018:10:59:02     0:00:17       0:30:01  
+               149    XTBL_L3_PRES_ENCTYPE       24JAN2018:10:59:02    24JAN2018:10:59:16     0:00:14       0:30:16  
+               150    XTBL_L3_MISMATCH           24JAN2018:10:59:16    24JAN2018:11:04:29     0:05:12       0:35:29  
+               151    XTBL_L3_DATES              24JAN2018:11:04:30    24JAN2018:11:04:31     0:00:01       0:35:30  
+               152    XTBL_L3_DATE_LOGIC         24JAN2018:11:04:31    24JAN2018:11:05:02     0:00:32       0:36:02  
+               153    XTBL_L3_TIMES              24JAN2018:11:05:03    24JAN2018:11:05:03     0:00:00       0:36:03  
+               154    XTBL_L3_METADATA           24JAN2018:11:05:04    24JAN2018:11:05:04     0:00:00       0:36:04  
+               155    XTBL_L3_DASH1              24JAN2018:11:05:21    24JAN2018:11:05:26     0:00:05       0:36:26  
+               156    XTBL_L3_DASH2              24JAN2018:11:05:27    24JAN2018:11:05:41     0:00:14       0:36:40  
+               157    XTBL_L3_DASH3              24JAN2018:11:05:41    24JAN2018:11:05:49     0:00:08       0:36:49  
+                                              Number of observations in each CDM table         10:24 Wednesday, January 24, 2018   6
+
+                                                         Library
+                                                  Obs    Member Name      NOBS
+
+                                                    1    DEMOGRAPHIC      928789  
+                                                    2    ENROLLMENT       519493  
+                                                    3    ENCOUNTER        6809136 
+                                                    4    DIAGNOSIS        9362218 
+                                                    5    PROCEDURES       14507784
+                                                    6    VITAL            4513003 
+                                                    7    LAB_RESULT_CM    3589911 
+                                                    8    PRESCRIBING      6234934 
+                                                    9    DISPENSING       0       
+                                                   10    DEATH            2495    
+                                                   11    HARVEST          BT      
+                                                   12    CONDITION        0       
+                                                   13    PRO_CM           0       
+                                                   14    PCORNET_TRIAL    0       
+                                                   15    DEATH_CAUSE      0       
+                                                   Query name:  XTBL_L3_METADATA               10:24 Wednesday, January 24, 2018   7
+
+                                      Obs    NAME                          VALUE
+
+                                        1    NETWORKID                     C3                 
+                                        2    NETWORK_NAME                  pSCANNER           
+                                        3    DATAMARTID                    C3USC              
+                                        4    DATAMART_NAME                 USC-Partner Clinics
+                                        5    DATAMART_PLATFORM             01                 
+                                        6    CDM_VERSION                   3.1                
+                                        7    DATAMART_CLAIMS               01                 
+                                        8    DATAMART_EHR                  02                 
+                                        9    BIRTH_DATE_MGMT               01                 
+                                       10    ENR_START_DATE_MGMT           01                 
+                                       11    ENR_END_DATE_MGMT             01                 
+                                       12    ADMIT_DATE_MGMT               01                 
+                                       13    DISCHARGE_DATE_MGMT           01                 
+                                       14    PX_DATE_MGMT                  01                 
+                                       15    RX_ORDER_DATE_MGMT            01                 
+                                       16    RX_START_DATE_MGMT            01                 
+                                       17    RX_END_DATE_MGMT              01                 
+                                       18    DISPENSE_DATE_MGMT            01                 
+                                       19    LAB_ORDER_DATE_MGMT           01                 
+                                       20    SPECIMEN_DATE_MGMT            01                 
+                                       21    RESULT_DATE_MGMT              01                 
+                                       22    MEASURE_DATE_MGMT             01                 
+                                       23    ONSET_DATE_MGMT               01                 
+                                       24    REPORT_DATE_MGMT              01                 
+                                       25    RESOLVE_DATE_MGMT             01                 
+                                       26    PRO_DATE_MGMT                 01                 
+                                       27    REFRESH_DEMOGRAPHIC_DATE      2018-01-24         
+                                       28    REFRESH_ENROLLMENT_DATE       2018-01-24         
+                                       29    REFRESH_ENCOUNTER_DATE        2018-01-24         
+                                       30    REFRESH_DIAGNOSIS_DATE        2018-01-24         
+                                       31    REFRESH_PROCEDURES_DATE       2018-01-24         
+                                       32    REFRESH_VITAL_DATE            2018-01-24         
+                                       33    REFRESH_DISPENSING_DATE       2018-01-24         
+                                       34    REFRESH_LAB_RESULT_CM_DATE    2018-01-24         
+                                       35    REFRESH_CONDITION_DATE        2018-01-24         
+                                       36    REFRESH_PRO_CM_DATE           2018-01-24         
+                                       37    REFRESH_PRESCRIBING_DATE      2018-01-24         
+                                       38    REFRESH_PCORNET_TRIAL_DATE    2018-01-24         
+                                       39    REFRESH_DEATH_DATE            2018-01-24         
+                                       40    REFRESH_DEATH_CAUSE_DATE      2018-01-24         
+                                       41    REFRESH_MAX                   2018-01-24         
+                                       42    LOW_CELL_CNT                  11                 
+                                       43    OPERATING_SYSTEM              LIN X64            
+                                       44    QUERY_PACKAGE                 DC V3.12           
+                                       45    RESPONSE_DATE                 2018-01-24         
+                                       46    SAS_VERSION                   9.4                
+                                       47    SAS_BASE                      Yes                
+                                       48    SAS_GRAPH                     Yes                
+                                       49    SAS_STAT                      Yes                
+                                       50    SAS_ETS                       Yes                
+                                       51    SAS_AF                        Yes                
+                                       52    SAS_IML                       Yes                
+                                       53    SAS_CONNECT                   Yes                
+                                       54    SAS_MYSQL                     Yes                
+                                       55    SAS_ODBC                      Yes                
+                                       56    SAS_ORACLE                    Yes                
+                                                   Query name:  XTBL_L3_METADATA               10:24 Wednesday, January 24, 2018   8
+
+                                              Obs    NAME                     VALUE
+
+                                               57    SAS_POSTGRES             Yes     
+                                               58    SAS_SQL                  Yes     
+                                               59    SAS_TERADATA             Yes     
+                                               60    DATASTORE                SAS     
+                                               61    DC PROGRAM (HH:MM:SS)     0:36:49
