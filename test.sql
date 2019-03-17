@@ -1,15 +1,12 @@
 # Jan 1, 2018 to Dec 31, 2018
 # GenMed only
 # Primary member only
-# Includes all completed visits, but only prescriptions that are only flagged as antibiotic
+# Includes all completed visits, but only prescrptions that are only flagged as antobiotic
 # There may be cases where two antibiotics were prescribed, in which case there will be two rows for the same consult.
 # No test visits
 # Survey question: ‘Overall, how would you rate the service provided by the Teladoc physician?’
 # May or may not have completed a survey
 # Includes one week per month, for 12 months
-
-# Update March 14, 2019
-# Include all codes for acute respiratory infections
 
 SELECT DISTINCT
     provider_durable_key,
@@ -58,8 +55,6 @@ FROM
         AND a.consult_status_cd = 'CONSULTSTATUS_COM'
         AND a.`scd_current_flg` = 'Y'
         AND a.test_consult_flg = 'N'
-
-
     JOIN DW.dim_provider f ON (f.provider_durable_key = a.provider_durable_key)
         AND f.scd_current_flg = 'Y'
     JOIN DW.dim_date h ON (a.date_key = h.date_key)
@@ -72,10 +67,6 @@ FROM
         antibiotic_flg = 'Y'
             AND i.`scd_current_flg` = 'Y'
             AND prescription_completion_flg = 'Y') i ON (i.consult_durable_key = a.consult_durable_key)
-
-OR a.encrypt_diagnosis_cd in (SELECT diagnosis_cd from value_set_table where diagnosis_type='CODESET_ICD10' and value_set_description = 'Acute Respiratory Infections - All'
-
-
     LEFT JOIN (SELECT DISTINCT
         a.consult_durable_key, question, answer
     FROM
@@ -92,4 +83,3 @@ OR a.encrypt_diagnosis_cd in (SELECT diagnosis_cd from value_set_table where dia
 WHERE
     week MOD 4 = 0
 ;
-
